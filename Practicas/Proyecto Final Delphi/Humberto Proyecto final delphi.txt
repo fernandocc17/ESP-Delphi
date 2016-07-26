@@ -1,0 +1,68 @@
+NOTA:
+
+Para hacer esta practica el uso de 
+
+	a)Record, es indispensable
+	b)Array, es opcional pero recomendable usar los dinamicos
+	c)Archivos ,es indispensable
+
+------------------------------Forma logear-----------------------
+0.2
+
+1)Ventana para logearse con :
+Usuario:
+Contraseña: (Que se vean *** cuando escriba)
+
+Dependiendo del usuario son los permisos, los tipos son los siguientes:
+	a)Cliente, solo ver productos
+	b)Empleado, Ver y comprar productos
+	c)Administrador:Ver comprar y agregar productos
+
+Estos permisos se veran reflejados en la forma siguiente la cual sera la del menu
+	
+------------------------------Forma productos----------------------
+NO
+2) Se debera poder navegar por los productos , con los siguientes botones:
+
+	a)Primero
+	b)Anterior
+	c)Siguiente
+	d)Ultimo
+
+y con un textbox , donde se metera el codigo del producto, el TXT debera aceptar solo numeros	
+0.3
+
+3)Se deben de ver los siguientes datos del producto:
+	Codigo
+	Nombre
+	Descripcion
+	Precio
+	Imagen
+SI
+4) Debe haber un lugar donde el usuario pueda ingresar la cantidad de ese producto que desea llevar y agregarlo al carrito de compras.Esto solo podra hacerse si el usuario cuenta con los permisos necesarios
+
+------------------------------Forma dar de alta--------------------
+NO
+5)Agregar todos los campos especificados arriba , el usuario no podra editar el codigo que sera autoincremental.
+NO
+6)Cuando se agregue un producto la forma de agregar una imagen sera por medio de un combobox que nos desplegara todas las imagenes que pusimos en cierta carpeta para cargar, se debe visualizar en un timage que este en esa forma.
+
+NOTA: Al darle click en guardar se debe guardar en un archivo
+
+------------------------------Forma carrito------------------------
+SI
+7)Debe salir el nombre del producto, su precio , la cantidad a comprar , el importe.
+SI
+8)Los valores que sean de moneda deben salir con un formato que tenga el simbolo "$" primero y siempre con dos decimales.
+SI
+9) Al seleccionar un dato de alguno de los listbox, se seleccionen todos los datos de ese producto en el listbox
+SI
+10) Se borre el producto seleccionado de los listbox con un boton 
+
+------------------------------EXTRAS-------------------------
+
+11)Modificar producto
+12)Borrar producto del archivo
+13)Alta usuario a un archivo
+14)Modificar usuario
+15.5) Usar un dialogo para guardar la imagen.

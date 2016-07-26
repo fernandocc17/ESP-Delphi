@@ -1,0 +1,63 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 368
+  ClientWidth = 569
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object lble_cpu: TLabeledEdit
+    Left = 72
+    Top = 32
+    Width = 121
+    Height = 21
+    EditLabel.Width = 20
+    EditLabel.Height = 13
+    EditLabel.Caption = 'CPU'
+    TabOrder = 0
+  end
+  object lble_ram: TLabeledEdit
+    Left = 72
+    Top = 75
+    Width = 121
+    Height = 21
+    EditLabel.Width = 22
+    EditLabel.Height = 13
+    EditLabel.Caption = 'RAM'
+    TabOrder = 1
+  end
+  object lble_hdd: TLabeledEdit
+    Left = 72
+    Top = 128
+    Width = 121
+    Height = 21
+    EditLabel.Width = 50
+    EditLabel.Height = 13
+    EditLabel.Caption = 'Disco duro'
+    TabOrder = 2
+  end
+  object btn_guardar: TButton
+    Left = 232
+    Top = 30
+    Width = 75
+    Height = 25
+    Caption = 'Guardar'
+    TabOrder = 3
+    OnClick = btn_guardarClick
+  end
+  object btn_mostrar: TButton
+    Left = 232
+    Top = 72
+    Width = 75
+    Height = 25
+    Caption = 'Mostrar'
+    TabOrder = 4
+  end
+end

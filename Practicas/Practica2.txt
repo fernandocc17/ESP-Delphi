@@ -1,0 +1,17 @@
+Practica #02  Delphi
+1)Agregar todos los elementos que se encuentran en el ejecutable
+2)En el textbox solo se deben admitir numeros
+3)Definir un record de tipo estudiante con los siguientes campos:
+	Codigo
+	Nombre
+	Telefono
+	Direccion
+4)Si el numero introducido en el textbox no esta en el rango de 1 a 4 (incluyendolos) deben mostrarse los textbox suficientes para guardar los datos de los alumnos seleccionados, de NO estar em el rango que salga un mensaje al usuario diciendole que el numero no esta en el rango de 1 a 4
+5)Al darle click en el boton de mostrar debe pasar lo mismo que si presionamos enter en el textbox, es decir que funcione con enter.
+6)Crear un arreglo de tipo record estudiante dinamico del tamaño que se haya especificado en el textbox, siempre y cuando este en el rango correcto.
+7)Al darle click en el boton de capturar se deben pasar los datos de los textobox al arreglo de estudiantes en el lugar correspondiente , es decir se deben leer solo los especificados
+8)Al tener ya todos los valores en el arreglo de estudiantes 
+
+--------------------EXTRAS-------------------------------------
+
+si 9)Al darle click a un elemento del listbox se deben seleccionar todos los de ese registro

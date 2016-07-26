@@ -1,0 +1,42 @@
+  1)Agregar :
+
+Label
+Combobox
+Checkbox
+Button
+PictureBox
+
+
+  2) Centrar la label arriba y que diga "ESTA ES LA PRACTICA 01" , en negrita en color azul
+
+  3)El boton debe estar deshabilitado al iniciar el formulario , al checar el checkbox se debe habilitar
+
+  4)Al cargarse el formulario se debe de cambiar el color de fondo del formulario/forma del inicial a otro color.
+
+  5)Al darle click al boton (si esta habilitado) se debe cargar en el combobox los numeros pares del 2 al 40 y cambiar el mensaje de la label a "Se ejecuta una accion en el formulario
+
+  6)El cuadro de imagen debe tener una imagen cualquiera desde el inicio.
+
+  6.5)La imagen debe verse completa aunque el picturebox no sea de su tamaño
+
+
+-----------------------------------EXTRAS---------------------------------------------------------
+
+
+7) Al "deschecar" el checkbox el boton se deshabilite nuevamente.
+
+  8) Agregar un listbox que se llame lb1.
+
+  9)Llenar el listbox con los numeros del 1 al 50
+
+  10)Agregar un segundo boton y un label mas
+
+  11)El segundo boton y el segundo label alinearlos, el boton debe decir "MULTIPLICAR" y la label "RESULTADO" desde el inicio.
+
+  12)Al darle click al boton debe multiplicar los valores seleccionados en el combobox y el listbox.Tambien debe cambiar el texto del boton a "Multiplicacion realizada"
+
+  13)Mostrar el resultado de la multiplicacion en la segunda label.
+
+  14) Agregar otra label
+
+  15)Poner en la ultima label si el resultado de la multiplicacion fue par o impar

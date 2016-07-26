@@ -1,0 +1,67 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 309
+  ClientWidth = 534
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object txt_nombre1: TEdit
+    Left = 72
+    Top = 48
+    Width = 121
+    Height = 21
+    TabOrder = 0
+  end
+  object txt_precio1: TEdit
+    Left = 232
+    Top = 48
+    Width = 121
+    Height = 21
+    TabOrder = 1
+  end
+  object txt_compa1: TEdit
+    Left = 376
+    Top = 48
+    Width = 121
+    Height = 21
+    TabOrder = 2
+  end
+  object txt_precio2: TEdit
+    Left = 232
+    Top = 112
+    Width = 121
+    Height = 21
+    TabOrder = 3
+  end
+  object txt_compa2: TEdit
+    Left = 376
+    Top = 112
+    Width = 121
+    Height = 21
+    TabOrder = 4
+  end
+  object txt_nombre2: TEdit
+    Left = 72
+    Top = 112
+    Width = 121
+    Height = 21
+    TabOrder = 5
+  end
+  object btn_pasa: TButton
+    Left = 232
+    Top = 200
+    Width = 75
+    Height = 25
+    Caption = 'Pasar datos'
+    TabOrder = 6
+    OnClick = btn_pasaClick
+  end
+end

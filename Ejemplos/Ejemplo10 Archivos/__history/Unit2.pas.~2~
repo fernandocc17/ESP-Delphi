@@ -1,0 +1,70 @@
+unit Unit2;
+
+interface
+
+uses
+  Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
+  Dialogs, StdCtrls;
+
+type
+
+Tcompu =record
+   cpu:string[40];
+   ram:string[40];
+   hdd:string[40];
+end;
+
+tfile=file of Tcompu;
+
+  TForm2 = class(TForm)
+    Edit1: TEdit;
+    Edit2: TEdit;
+    Edit3: TEdit;
+    procedure FormCreate(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    com:Tcompu;
+  end;
+
+var
+  Form2: TForm2;
+
+implementation
+
+{$R *.dfm}
+
+procedure TForm2.FormCreate(Sender: TObject);
+var
+
+arc:tfile;
+
+begin
+//Checamos que el archivo exista
+//la funcion fileexists , devuelve true si el archivo existe
+//false si no existe
+if (fileexists('temporal.txt')) then
+begin
+  //asigna el archivo fisico temporal.txt al descriptor de archivo arc
+  assignfile(arc,'temporal.txt');
+
+  //abrimos el archivo que describe arc , en forma de lectura o escritura
+  //esto solo funciona si los archivos son binarios
+  reset(arc);
+
+  //se lee el archivo que describe arc y se guarda en el registro com
+  read(arc,com);
+
+  edit1.Text:=com.cpu;
+  edit2.Text:=com.ram;
+  edit3.Text:=com.hdd;
+
+  //cerramos el archivo
+  closefile(arc);
+end;
+
+
+
+end;
+
+end.

@@ -1,0 +1,9 @@
+1)Agregar todos los elementos que se muestran en el ejecutable
+2) Al menos 7 monedas en el radiogroupbox o en un panel con los radiobuttons.
+3) Al darle click a una moneda se muestre su valor de compra y venta
+4)Al darle click radiogroup/radiobutton's que sean de compra y venta en compra el boton debe decir compra y la label que dice cantidad debe cambiar a Cantidad en <moneda elegida>,
+5)Al darle click en venta el button debe decir venta y la label cantidad en pesos 
+6)Tener un record para las monedas
+7)Al dar click en el boton se debe de hacer el cambio correspondiente (sea compra o venta) y mostrar al usuario el resultado en la label de abajo.
+
+8)Boton para agregar nuevas monedas , se debe introducir su nombre, valor de compra y de venta,esto se debe de guardar en un archivo.Al agregar la nueva moneda se debe agregar al radiogroup su nombre y al darle click debe verse su valor de compra y venta

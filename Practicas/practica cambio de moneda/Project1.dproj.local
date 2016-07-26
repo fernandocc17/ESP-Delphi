@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2011/07/13 13:59:46.813.pas,C:\Users\Firestorm\Documents\RAD Studio\Projects\Unit1.pas=C:\Users\Firestorm\Documents\RAD Studio\Projects\practica cambio de moneda\Unit1.pas</Transaction>
+    <Transaction>2011/07/13 13:59:46.813.dfm,C:\Users\Firestorm\Documents\RAD Studio\Projects\Unit1.dfm=C:\Users\Firestorm\Documents\RAD Studio\Projects\practica cambio de moneda\Unit1.dfm</Transaction>
+    <Transaction>2011/07/13 13:59:52.385.dproj,C:\Users\Firestorm\Documents\RAD Studio\Projects\Project1.dproj=C:\Users\Firestorm\Documents\RAD Studio\Projects\practica cambio de moneda\Project1.dproj</Transaction>
+  </Transactions>
+</BorlandProject>

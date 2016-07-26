@@ -1,0 +1,16 @@
+Tarea #01 Delphi
+
+Investigar las siguientes funciones de cadena
+
+Pos
+Copy
+Length
+delete
+insert
+
+
+Decir que parametros recibe , que significa cada uno por su posicion , que tipo de dato debe ser
+y que valor devolvera junto a su tipo de dato.
+
+Val
+Str

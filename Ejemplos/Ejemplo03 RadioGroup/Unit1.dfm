@@ -1,0 +1,121 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 387
+  ClientWidth = 576
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  Menu = MainMenu1
+  OldCreateOrder = False
+  OnClose = FormClose
+  OnCreate = FormCreate
+  PixelsPerInch = 96
+  TextHeight = 13
+  object rg_opciones: TRadioGroup
+    Left = 48
+    Top = 48
+    Width = 185
+    Height = 105
+    Caption = 'rg_opciones'
+    TabOrder = 0
+  end
+  object edit1: TEdit
+    Left = 288
+    Top = 48
+    Width = 121
+    Height = 21
+    PopupMenu = PopupMenu1
+    TabOrder = 1
+  end
+  object Button1: TButton
+    Left = 440
+    Top = 48
+    Width = 75
+    Height = 25
+    Caption = 'Agregar'
+    TabOrder = 2
+    OnClick = Button1Click
+  end
+  object Button2: TButton
+    Left = 312
+    Top = 128
+    Width = 75
+    Height = 25
+    Caption = 'Borrar'
+    TabOrder = 3
+    OnClick = Button2Click
+  end
+  object CheckListBox1: TCheckListBox
+    Left = 48
+    Top = 200
+    Width = 121
+    Height = 97
+    ItemHeight = 13
+    Items.Strings = (
+      'Opcion 1'
+      'Opcion 2'
+      'Opcion 3'
+      'Opcion 4'
+      'Ya me canse')
+    TabOrder = 4
+  end
+  object PopupMenu1: TPopupMenu
+    Left = 544
+    Top = 152
+    object Archivo1: TMenuItem
+      Caption = 'Archivo'
+    end
+    object COpiar1: TMenuItem
+      Caption = 'COpiar'
+    end
+    object Pegar1: TMenuItem
+      Caption = 'Pegar'
+    end
+    object Cortar1: TMenuItem
+      Caption = 'Cortar'
+    end
+  end
+  object MainMenu1: TMainMenu
+    Left = 544
+    Top = 96
+    object Archivo2: TMenuItem
+      Caption = 'Archivo'
+      object Abrir1: TMenuItem
+        Caption = 'Abrir'
+        object TMenuItem
+        end
+      end
+      object Guardar1: TMenuItem
+        Caption = 'Guardar'
+      end
+      object Cerrar1: TMenuItem
+        Caption = 'Cerrar'
+      end
+    end
+    object Editar1: TMenuItem
+      Caption = 'Editar'
+      object Comunes1: TMenuItem
+        Caption = 'Comunes'
+      end
+      object Rehacer1: TMenuItem
+        Caption = 'Rehacer'
+      end
+      object COpiar2: TMenuItem
+        Caption = 'COpiar'
+        ShortCut = 16451
+      end
+      object Pegar2: TMenuItem
+        Caption = 'Pegar'
+        ShortCut = 16470
+      end
+    end
+    object Ayuda1: TMenuItem
+      Caption = 'Ayuda'
+    end
+  end
+end

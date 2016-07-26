@@ -1,0 +1,40 @@
+Manejo de archivos en Delphi
+
+Tipo de dato
+a)Archivo de texto 
+<variable> :textfile: texto
+
+Binario
+
+b)Archivo con tipo 
+<variable> :File of <tipo>
+c)Archivos sin tipo
+<variable >File
+
+Funciones para archivos :
+assign (variable,ruta)
+	Asigna una variable tipo archivo a un archivo fisico
+rewrite (variable)
+	reinicializa un archivo
+reset(variable)
+	coloca el apuntador de archivo en el primer registro
+append(variable)
+	abre un archivo para añadir datos
+closeFile(variable)
+	Cierra un archivo
+Write/Writeln(variable,valor)
+	escribe valores en el archivo
+read/readln(variable,variable_dato)
+	lee datos del archivo variable y guarda los datos en la variable variable_dato
+
+EoF (variable)
+Determina si el apuntador de archivo se encuentra al final del mismo.
+
+EoLn (variable)
+Determina si el apuntador de archivo  se encuentra sobre una marca de linea. 
+
+FileExists (ruta)
+determina si existe o no un archivo.
+
+
+LEER SOBRE DESCRIPTOR DE ARCHIVO

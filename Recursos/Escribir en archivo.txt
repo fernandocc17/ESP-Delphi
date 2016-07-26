@@ -1,0 +1,10 @@
+Como escribir en un archivo
+
+1) La definicion del record que deseamos escribir.Record se va a llamar TMesa
+2)Definir un tipo de dato , que sirva para guardar records (TMesa) en un archivo.Variable TArchivo_Mesa
+3)Variable que sea un descriptor de archivo, del tipo TArchivo_Mesa.FD va a ser la variable definida
+3.5)Tener un registro de tipo TMesa, primero
+4)Asignar al descriptor de archivo , un archivo fisico.Assignfile(fd,'nombre_archivo.txt');
+5)Abrirlo en modo de escritura.Rewrite(fd);
+6)Escribir el registro de tipo TMesa en el archivo.write(fd,primero);
+7)Cerrar el archivo para evitar que se corrompa.CloseFile(fd);

@@ -1,0 +1,63 @@
+unit Unit2;
+
+interface
+
+uses
+  Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
+  Dialogs, StdCtrls;
+
+type
+tregistro=record
+  campo1:string[20];
+  campo2:string[20];
+  campo3:string[30];
+end;
+  //variable para archivos donde estaran los records de tregistro
+  tfile= file of tregistro;
+
+  TForm2 = class(TForm)
+    lb1: TListBox;
+    lb2: TListBox;
+    lb3: TListBox;
+    Button2: TButton;
+    procedure Button2Click(Sender: TObject);
+  private
+    { Private declarations }
+  public
+  //Notese que aca tambien estan definidos , convenientemente con los mismos nombres
+
+  //registro del record tregistro
+  rec: tregistro;
+
+  end;
+
+var
+  Form2: TForm2;
+
+implementation
+
+{$R *.dfm}
+
+procedure TForm2.Button2Click(Sender: TObject);
+var
+archivo:tfile;
+begin
+if fileexists('temp.txt') then
+
+  begin
+    assignfile(archivo,'temp.txt');
+    reset (archivo);
+    while not eof(archivo) do
+      begin
+       read(archivo,rec);
+       lb1.Items.Add(rec.campo1);
+       lb2.Items.Add(rec.campo2);
+       lb3.Items.Add(rec.campo3);
+      end;
+        closefile(archivo);
+  end;
+
+
+end;
+
+end.
